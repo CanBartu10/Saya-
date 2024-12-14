@@ -1,0 +1,63 @@
+/* Genel Ayarlar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Sayfa Genel Ayarları */
+body {
+    background-color: #051937; /* Fenerbahçe renklerinden lacivert */
+    color: #ffffff; /* Yazılar beyaz */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    text-align: center;
+    max-width: 800px;
+    width: 100%;
+    background: linear-gradient(135deg, #051937, #2a5298); /* Lacivertten maviye geçişli arka plan */
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+    padding: 30px;
+}
+
+/* Başlıklar */
+header h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #ffcc00; /* Fenerbahçe sarısı */
+    text-transform: uppercase;
+}
+
+.counter h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #ffcc00; /* Fenerbahçe sarısı */
+}
+
+/* Sayaç Görünümü */
+.counter-display {
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 15px;
+    margin: 10px 0 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid #ffcc00;
+    border-radius: 10px;
+}
+
+/* Alt Bilgi */
+footer {
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.7);
+}
+footer p {
+    margin: 0;
+}
